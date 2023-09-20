@@ -100,7 +100,7 @@
         },
         "FQDN": {
             "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
-            "required": true
+            "required": false
         },
         "name": {
             "description": "Session Name",
@@ -110,12 +110,12 @@
         "LAZY_MODE": {
             "description": " True - to enable file renaming feature ",
             "value": "True",
-            "required": true
+            "required": false
         },
         "LAZY_RENAMERS": {
             "description": "Users id, whom you want to allow file renaming ",
             "value": "5965340120",
-            "required": true
+            "required": false
         },
         "REQ_CHANNEL": {
             "description": "To send logs of unavailable contnts",
@@ -125,27 +125,27 @@
         "URL_MODE": {
             "description": "True - 'if you want to enable url shortner' else - false ",
             "value": "False",
-            "required": true
+            "required": false
         },
         "URL_SHORTENR_WEBSITE": {
             "description": " Url shortner website link   ",
             "value": "oemgalinks.in",
-            "required": true
+            "required": false
         },
         "URL_SHORTNER_WEBSITE_API": {
             "description": " Url shortner website api  ",
             "value": "xxxxxxxxxxxxx",
-            "required": true
+            "required": false
         },
         "LAZY_GROUPS": {
             "description": " Group id whom you want to bypass url ",
             "value": "-1001773435994",
-            "required": true
+            "required": false
         },
         "MY_USERS": {
             "description": "Id of the users whom you want to allow to forward message in file protection mode ",
             "value": "5965340120 5448908073 5590491131",
-            "required": true
+            "required": false
         }
     },
     "buildpacks": [{
